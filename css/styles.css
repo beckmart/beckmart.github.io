@@ -1,0 +1,73 @@
+body {
+  position: relative;
+}
+p, #publications li { font-size: 1.2em; }
+
+.container.body-padding {
+  padding-top: 60px;
+}
+#columbia-top img { 
+  margin-right: 0.6em; 
+  padding: 0.1em 0 0.3em 0.3em;
+}
+#columbia-top a { color: white; }
+#columbia-top a:hover { text-decoration: none; }
+#columbia-top span {
+    display: inline-table;
+    width: 100%;
+    background-color: #4000a6;
+    padding-top: 0.25em;
+}
+#bio ul { 
+    display: block;
+	margin: 0 auto;
+    padding-left: 0;
+    width: 95%;
+}
+#bio ul li {
+	display: inline-block;
+    vertical-align: top;
+    margin-right: 1.2em;
+}
+#bio li img, a.btn img { 
+    height: 45px;
+	display: block;
+	margin: 0 auto;
+}
+li.list-group-item {
+  background: transparent;
+  border: none;
+}
+#bio span.glyphicon {
+	font-size: 2.75em;
+    display: block;
+    height: 45px;
+}
+#bio .glyphicon-label {
+	display: block;
+	text-align: center;
+	width: 35px;
+}
+#publications ul li {
+  margin-top: 1.25em;
+}
+.mvp-pagenum-.mvp-pagenum-pagelink {
+  margin-left: 0.25em;
+}
+
+img.scholar { padding: 0.2em;}
+
+footer {
+  width: 100%;
+  padding: 1.5em;
+  background-color: white;
+}
+
+footer img { margin-bottom: 1.25em; }
+
+footer .container {
+  margin: 0 auto;
+  color: white;
+}
+
+footer p { font-size: small; }
